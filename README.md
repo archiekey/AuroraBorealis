@@ -1,1 +1,2 @@
 # MachineLearningResearch
+ The idea of the project I will be working on is to use machine learning to analyze text based data to classify whether or not the data is about a meteorological event. To be specific, I will be working on analyzing twitter data about the aurora borealis to classify whether or not subsequent tweets is about the Aurora Borealis. While this is specifically what I would be working on, the goal is to create a project that will generally work with all text based data. 
