@@ -1,3 +1,11 @@
 1/26/17
 
 Created a github repository for Research Project 
+
+2/2/17 
+
+Spent three hours reading about machine learning and about possible machine learning algorithms that can be used for text.
+
+2/3/17
+
+Spent five hours setting up an ubuntu virtual machine for machine learning, reading more about different machine learning algorithms, and started to preprocess the data by isolating the text from each tweet and saving it in an array.
