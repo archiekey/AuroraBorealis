@@ -1,0 +1,9 @@
+Main steps of the projcet.
+
+1- Read and characterize algorithms for (short) text analysis.
+2- Read and characterize the pipelines for analyzing twitter data.
+3- Address the problem at hand with a specific framework (scikit)
+4- Do WINGS workflows with the framework.
+5- Try other frameworks
+6- Use interchangeably components of the framewroks in WINGS.
+7- Adopt neural network techniques

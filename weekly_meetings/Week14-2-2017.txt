@@ -1,0 +1,14 @@
+No previous objectives to evaluate. 
+	- Archana has been reviewing state of the art machine learning techniques to understand them better.
+	- Confused about how to pre-process Twitter data.
+	
+Objectives for next week (21-2-2017)
+	- Write a summary about potential algorithms to apply to the problem and why.
+	- Research on Existing Twitter pipelines to understand better the pre-processing steps
+	- Write down different pipelines summaries.
+	- Start playing arounf with Sci kit and preprocessing the data.
+	
+	
+	----Only if we have time.
+	- Maybe try a couple of algorithms for text classification.
+	- Increase the corpus of training data with tweets.
