@@ -1,0 +1,10 @@
+Previous Objectives beong worked on
+	Working on an implementation of linear SVM.
+	Working on algorithms for preprocessing the text.
+	Increase the training corpus size
+Next objectives (For March)
+	Complete analysis with linear SVM
+	Complete analysis with Bayes
+	Complete analysis with Linear regression
+	Complete analysis clustering (unsupervised, no corpus necessary).
+	Complete the tagging of 200 tweets.
