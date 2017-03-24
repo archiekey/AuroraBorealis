@@ -30,14 +30,21 @@ print (halfdata)
 print fulldata
 #newtrain = features_train_transformed[0:halfdata]
 newtrain = bag_of_words[0:halfdata]
-clf.fit(newtrain ,labels[0:halfdata])
 
-pred = clf.predict(bag_of_words[halfdata+1:fulldata])#features_train_transformed[halfdata+1:fulldata])
+clf.fit(features_train_transformed  ,labels)
+
+#clf.fit(newtrain ,labels[0:halfdata])
+
+
+#pred = clf.predict(bag_of_words[halfdata+1:fulldata])#features_train_transformed[halfdata+1:fulldata])
+
+pred = clf.predict(features_train_transformed)
 
 #print features_t_transformed[3]
 #print pred
 
-print accuracy_score(pred,labels[halfdata+1:fulldata])
+#print accuracy_score(pred,labels[halfdata+1:fulldata])
+print accuracy_score(pred,labels)
 #for testing in range(0,20):
 	#print features_test_transformed[testing]
 
