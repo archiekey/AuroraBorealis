@@ -29,8 +29,15 @@ fulldata = len(protrainingdata)
 halfdata = len(protrainingdata)/2
 newtrain = features_train_transformed[0:halfdata].toarray()
 #newtrain = bag_of_words[0:halfdata].toarray()
-clf.fit(newtrain ,labels[0:halfdata])
+#clf.fit(newtrain ,labels[0:halfdata])
+clf.fit(features_train_transformed.toarray(),labels)
 
-pred = clf.predict(features_train_transformed[halfdata+1:fulldata].toarray())
 
-print accuracy_score(pred,labels[halfdata+1:fulldata])
+
+#pred = clf.predict(features_train_transformed[halfdata+1:fulldata].toarray())
+pred = clf.predict(features_train_transformed.toarray())
+
+#print accuracy_score(pred,labels[halfdata+1:fulldata])
+print accuracy_score(pred,labels)
+
+
