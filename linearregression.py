@@ -2,7 +2,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_selection import SelectPercentile, f_classif
 from sklearn.metrics import accuracy_score
-
+from sklearn.linear_model import LinearRegression
 
 
 from preprocesstest import testdata
@@ -21,7 +21,7 @@ bagvectorizer = CountVectorizer()
 bag_of_words = bagvectorizer.fit(protrainingdata)
 bag_of_words = bagvectorizer.transform(protrainingdata)
 
-clf = GaussianNB()
+clf = LinearRegression()
 
 
 fulldata = len(protrainingdata)
